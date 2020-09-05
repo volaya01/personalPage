@@ -1,0 +1,40 @@
+<div class="cuerpo">
+    <div class="row">
+        <div class="offset-1 col-10 offset-1">
+            <ngb-carousel *ngIf="imagenes">
+                <ng-template ngbSlide>
+                <div class="picsum-img-wrapper box">
+                    <img [src]="imagenes[0]" class="imagen"alt="Random first slide">
+                </div>
+                <div class="carousel-caption">
+                </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                <div class="picsum-img-wrapper box">
+                    <img [src]="imagenes[1]" class="imagen" alt="Random second slide">
+                </div>
+                <div class="carousel-caption">
+                    
+                </div>
+                </ng-template>
+                <ng-template ngbSlide>
+                <div class="picsum-img-wrapper box">
+                    <img [src]="imagenes[2]" class="imagen" alt="Random third slide">
+                </div>
+                <div class="carousel-caption">
+                </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+
+    </div>
+
+</div>
+<div class="row">
+    <div class="offset-2 col-8 offset-2" style="text-align: center;">
+        Correo institucional: volaya@unal.edu.co<br>
+        Correo personal: valen0-302@hotmail.com<br>
+        <a  href="https://www.linkedin.com/in/valentina-olaya-95722b13a/">LinkedIn</a> <br>
+        <a href="https://github.com/volaya01/">GitHub</a> <br>
+    </div>
+</div>
